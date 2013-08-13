@@ -1,0 +1,10 @@
+{
+    "appName": {
+        "message": "edict",
+        "description": "The name of the application"
+    },
+    "appDescription": {
+        "message": "A chrome app for sending and receiving messages as well as setting reminders for yourself and tagging neat things on-line",
+        "description": "The description of the application"
+    }
+}

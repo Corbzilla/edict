@@ -1,0 +1,19 @@
+{
+    "name": "edict",
+    "version": "1",
+    "manifest_version": 2,
+    "description": "A messaging and reminder app for Chrome.",
+    "icons": {
+        "16": "images/icon-16.png",
+        "128": "images/icon-128.png"
+    },
+    "default_locale": "en",
+    "app": {
+        "background": {
+          "scripts": ["scripts/main.js"]
+        }
+    },
+    "permissions": [
+        "unlimitedStorage"
+    ]
+}
