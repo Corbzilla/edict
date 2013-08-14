@@ -1,8 +1,9 @@
 class CreateMessageView extends Backbone.View
-	el: document.getElementById '#create'
+	el: document.getElementById 'create'
 	events:
 		'click .submit-btn': 'createMessage'
 	createMessage: (e) =>
+		console.log('Creating Mesage...')
 		title = @$el.find('.title').val()
 		body = @el.find('.body').val()
 		tags = @el.find('.tags').val()

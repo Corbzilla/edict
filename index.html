@@ -6,20 +6,31 @@
         <!-- build:css styles/app.css -->
         <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
+		<script src="/app/bower_components/jquery/jquery.min.js"></script>
+		<script src="/app/bower_components/backbone/test/vendor/underscore.js"></script>
+		<script src="/app/bower_components/backbone/backbone-min.js"></script>
+		<script src="/scripts/Message.js"></script>
     </head>
     <body>
         <h1>edict</h1>
-	<section class="create">
+	<section id="create">
+		<h2>Create</h2>
+		<label>Title</label>
 		<input type="text" class="title" />
-		<textarea class="body" />
+		<label>Body</label>
+		<textarea class="body"></textarea>
+		<label>Tags</label>
 		<input type="text" class="tags" />
 		<input type="button" class="submit-button"  value="submit" />
 	</section>
 	<section class="inbox">
+		<h2>Inbox</h2>
 	</section>
 	<section class="outbox">
+		<h2>Outbox</h2>
 	</section>
-	<section class-"reminder">
+	<section class="reminder">
+		<h2>Reminders</h2>
 	</section>
     </body>
 </html>

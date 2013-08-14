@@ -1,5 +1,5 @@
 class MessageViewApp extends Backbone.View
-	el: document.getElementByTag 'body'
+	el: document.getElementsByTagName('body')[0]
 	init: () =>
 		chrome.storage.local.get 'messages', (messages) ->
 			_.each messages, (message) ->
